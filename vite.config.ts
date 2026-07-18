@@ -34,13 +34,7 @@ export default defineConfig(({ mode }) => {
         '@': path.resolve(__dirname, '.'),
       },
     },
-    // manualChunks removed: splitting 'react-core' and 'motion' into separate
-    // chunks caused a load-order race where motion/react ran before React had
-    // finished initializing, crashing on React.createContext. Letting Rollup
-    // handle chunking automatically avoids this.
     server: {
-      // HMR is disabled in AI Studio via DISABLE_HMR env var.
-      // Do not modify — file watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
     },
   };
