@@ -5,7 +5,7 @@ import { Mail, Send, Loader2, CheckCircle2, AlertCircle, User, MessageSquare } f
 // Uses Formspree (https://formspree.io) to deliver form submissions to your inbox
 // without needing your own backend. Sign up for a free account, create a form,
 // and replace the ID below with yours (it looks like "xyzabcde").
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mrenpqrr';
+const FORMSPREE_ENDPOINT = import.meta.env.VITE_FORMSPREE_ENDPOINT as string;
 
 type Status = 'idle' | 'loading' | 'success' | 'error';
 
