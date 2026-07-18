@@ -11,11 +11,11 @@ export default function Footer() {
         <div className="flex flex-col items-start gap-y-4 md:w-1/3">
           <div>
             <h2 className="text-2xl font-medium mb-1 tracking-tight">
-              <span className="font-dancing-script font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-emerald-500">Israel Aliyev</span>
+              <span className="font-dancing-script font-bold text-3xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-emerald-500">Israyil Aliyev</span>
             </h2>
             <div className="flex flex-col gap-y-1 mt-3">
               <p className="text-xs font-medium text-slate-800 dark:text-slate-200">Full Stack Java Developer</p>
-              <p className="text-[10px] text-slate-600 dark:text-slate-400">Israil Aliyev, Baku - Azerbaijan</p>
+              <p className="text-[10px] text-slate-600 dark:text-slate-400">Israyil Aliyev, Baku - Azerbaijan</p>
             </div>
           </div>
 

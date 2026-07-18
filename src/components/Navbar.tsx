@@ -60,7 +60,7 @@ export default function Navbar() {
           </a>
           <div className="flex flex-col min-w-0">
             <Link to="/" className="leading-tight font-medium font-dancing-script text-base sm:text-lg whitespace-nowrap truncate">
-              Israel Aliyev <span className="text-[12px] sm:text-sm">👋🏼</span>
+              Israyil Aliyev <span className="text-[12px] sm:text-sm">👋🏼</span>
             </Link>
             <div className="text-slate-600 dark:text-slate-400 text-[10px] font-medium h-3.5 flex items-center overflow-hidden min-w-0">
               <AnimatePresence mode="wait">
